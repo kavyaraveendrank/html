@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,th,td{
+    border: 2px solid black;       
+    border-collapse: collapse;
+    background-color: green;
+        }
+    </style>
+    <table> 
+    <form >
+       <tr><td>Firstname</td><td><input type="text"></td><br></tr>
+       <tr><td>Lastname</td><td><input type="text"></td><br></tr>
+       <tr><td>Photo</td><td><input type="file"></td><br></tr>
+       <tr><td>Date of Birth</td><td><input type="date"></td><br></tr>
+       <tr><td>Email</td><td><input type="email"></td><br></tr>
+       <tr><td>Mobile number</td><td><input type="number"required></td><br></tr>
+       <tr><td>Gender</td><td><input type="radio"required name="Gender">Male<input type="radio" name="Gender">Female</td><br></tr>
+       <tr><td>Address</td><td><input type="text"></td><br></tr>
+       <tr><td>City</td><td><input type="text"></td><br></tr>
+       <tr><td>Pincode</td><td><input type="number"></td><br></tr>
+       <tr><td>State</td><td><input type="text"></td><br></tr>
+       <tr><td>Country</td><td><select name="Country" >
+       <option value="">India</option>
+       <option value="">China</option>
+       <option value="">Russia</option>
+       </select></td></tr><br>
+        <tr><td>Hobbies</td><td><input type="checkbox" required>Singing<input type="checkbox">Drawing</td><br>
+
+            <tr><td>Qualification</td><td>
+                <table  style="border: 2px solid black;       
+                border-collapse: collapse;">
+                    <tr><th style="border: 2px solid black;       
+                        border-collapse: collapse;">slno</th><th>Examination</th><th>Board</th><th>Percentage</th><th>Year of Passing</th></tr>
+                    <tr><td style="border: 2px solid black;       
+                        border-collapse: collapse;">1</td><td>Class10</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td style="border: 2px solid black;       
+                        border-collapse: collapse;">2</td><td>Class12</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td style="border: 2px solid black;       
+                        border-collapse: collapse;">3</td><td>Graduate</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                    <tr><td style="border: 2px solid black;       
+                        border-collapse: collapse;">4</td><td>Post Graduate</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+                </table>
+
+            </td></tr>
+        <tr><td>Courses Applied For</td><td><input type="checkbox">Bsc<input type="checkbox">Bca<input type="checkbox">BA</td><br>
+        <tr><td colspan="2"><div style="text-align: center;"><button>OK</button><button>Reset</button></td></tr></div>
+       
+    </form>    
+</table>
+
+</body>
+</html>
